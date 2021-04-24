@@ -1,4 +1,4 @@
-name: opencpn-manuals
+name: manuals
 title: OpenCPN Manuals
 version: '0.1'
 start_page: ROOT:index.adoc 
