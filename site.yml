@@ -12,6 +12,7 @@ content:
       - manuals
       - dev
       - plugins/manual
+      - plugins/manual-beta
      
     - url: https://github.com/Rasbats/shipdriver_pi.git    
       branches: master
