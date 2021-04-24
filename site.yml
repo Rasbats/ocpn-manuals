@@ -1,21 +1,17 @@
 site:
-  title: OpenCPN Developer Manual
+  title: OpenCPN Manuals
   url: https://leamas.github.io/ocpn-manuals/
-  start_page:  ocpn-dev-manual:ROOT:intro-AboutThisManual.adoc
+  start_page:  manuals::index.adoc
 
 content:
   sources:
-    - url: https://github.com/rgleason/ocpn-dev-manual
-      branches: main
+    - url: https://github.com/Rasbats/manual.git
+      branches: master
       edit_url: true
-    - url: https://github.com/leamas/ocpn-pi-docs.git
-      branches: main
-      edit_url: false
-    - url: https://github.com/Rasbats/managed_plugins.git
-      branches: asciidoc
-      edit_url: false
-      start_path: manual
-ui:   
+      start_paths: 
+      - manuals
+
+ui:
   bundle:
     url: ./ui-bundle.zip
     snapshot: true
@@ -32,7 +28,8 @@ asciidoc:
     page-resource_1_title: OpenCPN.org
     page-resource_1_url: https://www.opencpn.org/
     page-resource_2_title: User Manual
-    page-resource_2_url: https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:opencpn_user_manual
+    page-resource_2_url: |
+      https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:opencpn_user_manual
     page-resource_3_title: Github Site
     page-resource_3_url: https://github.com/opencpn/OpenCPN
     page-resource_4_title: Bugtracker

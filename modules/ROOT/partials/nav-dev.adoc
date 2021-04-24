@@ -1,0 +1,103 @@
+* Introduction
+** xref:ocpn-dev-manual::intro-AboutThisManual.adoc[About this Manual]
+** xref:ocpn-dev-manual::intro-Background.adoc[Background]
+** xref:ocpn-dev-manual::intro-Community.adoc[Community]
+** xref:ocpn-dev-manual::intro-Terminology.adoc[Terminology]
+* Opencpn development
+** Compiling
+*** xref:ocpn-dev-manual::od-compile-cmake.adoc[CMake]
+*** xref:ocpn-dev-manual::od-compile-linux.adoc[Linux]
+*** xref:ocpn-dev-manual::od-compile-windows.adoc[Windows]
+*** xref:ocpn-dev-manual::od-compile-mac-osx.adoc[MacOS]
+*** xref:ocpn-dev-manual::od-compile-cross-compile-for-windows-under-linux.adoc[Mingw windows build on Linux]
+** xref:ocpn-dev-manual::od-code-formatting.adoc[Code Formatting]
+** xref:ocpn-dev-manual::od-user-interface-styling.adoc[User Interface Styling]
+** xref:ocpn-dev-manual::od-troubleshooting.adoc[Troubleshooting]
+* Plugin Development
+** xref:ocpn-dev-manual::pm-plugin-guidelines.adoc[Plugin Guidelines]
+*** xref:ocpn-dev-manual::pm-plugin-documentation.adoc[Documentation]
+*** xref:ocpn-dev-manual::pm-plugin-dependencies.adoc[Dependencies]
+** xref:ocpn-dev-manual::pm-plugin-api-versions.adoc[Plugin API and ABI]
+** xref:ocpn-dev-manual::pm-overview-deployment.adoc[Deployment overview]
+** xref:ocpn-dev-manual::pm-overview-workflow.adoc[Workflow overview]
+** xref:ocpn-dev-manual::pm-tp-template.adoc[Testplugin Template]
+*** xref:ocpn-dev-manual::pm-overview-prereq-workflow.adoc[Workflow Prerequisites]
+*** xref:ocpn-dev-manual::pm-overview-prereq-services.adoc[Prerequisite Services]
+*** xref:ocpn-dev-manual::pm-overview-prereq-other.adoc[Cloudsmith Setup]
+**** xref:ocpn-dev-manual::pm-tp-system-structure.adoc[System Structure]
+*** xref:ocpn-dev-manual::pm-tp-dev-setup.adoc[Developer Setup]
+*** xref:ocpn-dev-manual::pm-tp-config-template.adoc[Configure Template]
+*** Build Locally
+*** xref:ocpn-dev-manual::pm-tp-adapt-plugin.adoc[Adapt Plugin]
+*** xref:ocpn-dev-manual::pm-tp-deploy.adoc[Deploy Details]
+*** xref:ocpn-dev-manual::pm-tp-update-library.adoc[Update the Library]
+*** xref:ocpn-dev-manual::pm-tp-language-nuance.adoc[Language Nuances]
+*** xref:ocpn-dev-manual::pm-tp-odapi-messaging.adoc[Odapi Messages]
+*** xref:ocpn-dev-manual::pm-tp-odapi.adoc[Odapi for oDraw]
+*** xref:ocpn-dev-manual::pm-tp-ocpn_draw_odapi.adoc[Ocpn_Draw Odapi]
+** xref:ocpn-dev-manual::AlternativeWorkflow::index.adoc[Shipdriver Template Alternative Workflow]
+** xref:ocpn-dev-manual::Managed_Plugins::nav.adoc[Shipdriver Templates Managed Plugins Workflow]
+* xref:ocpn-dev-manual::dm-legacy-plugins.adoc[Legacy Plugin Packaging]
+* xref:ocpn-dev-manual::dm-i18n.adoc[Internationalization]
+* Resources
+** xref:ocpn-dev-manual::res-prebuilt-build-files.adoc[Prebuilt Build Files]
+** xref:ocpn-dev-manual::res-online-tools.adoc[Online Nmea Tools]
+* The Attic
+** Redundant
+** xref:ocpn-dev-manual::demo_plugin.adoc[Demonstration Plugin]
+** xref:ocpn-dev-manual::updating_the_user_manual.adoc[Updating the User Manual]
+** xref:ocpn-dev-manual::bug_and_feature_tracking.adoc[Bugs and feature tracking]
+** xref:ocpn-dev-manual::troubleshooting_plugins.adoc[Troubleshooting Plugins]
+** xref:ocpn-dev-manual::plugin_submissions.adoc[Plugin Submissions]
+** xref:ocpn-dev-manual::standalone_plugin_compilation.adoc[Plugin Compilation Win]
+** xref:ocpn-dev-manual::compiling_external_plugins_and_building_install_packages.adoc[Compile Plugins and build Install Packages]
+** xref:ocpn-dev-manual::compiling_plugins_to_debug.adoc[Compile Plugins for Debugging]
+** xref:ocpn-dev-manual::developer_guide.adoc[Developer Guide]
+** Reference
+*** xref:ocpn-dev-manual::languages.adoc[Internationalization]
+*** xref:ocpn-dev-manual::prerequisites.adoc[Prerequisites]
+*** xref:ocpn-dev-manual::compiling_mac_osx.adoc[Compiling on macOS]
+*** xref:ocpn-dev-manual::compile_linux_old.adoc[Compiling on Linux]
+*** xref:ocpn-dev-manual::rpi2.adoc[Compile on Raspberry PI]
+*** xref:ocpn-dev-manual::building_and_installing_on_cubieboard_2_with_hw_acceleration.adoc[Cubieboard 2 with HW acceleration]
+*** xref:ocpn-dev-manual::building-on-armhf-linux-armbian-orange-pi.adoc[armhf linux - Armbian - Orange Pi]
+*** xref:ocpn-dev-manual::building_on_motorola_xoom.adoc[Building on Motorola Xoom]
+*** xref:ocpn-dev-manual::compiling_on_slackware.adoc[Compile on Slackware]
+*** xref:ocpn-dev-manual::vs2015_workflow.adoc[Compile 2015 VS Community Workflow]
+*** xref:ocpn-dev-manual::compile_windows_2013_vs_community.adoc[Compile 2013 VS Community Workflow]
+*** xref:ocpn-dev-manual::compile_windows_2013_vs_community_ov4.2-4.8.8.adoc[Compile 2013 VS Community Workflow ov4.2-4.8.8]
+*** xref:ocpn-dev-manual::standalone_plugin_compilation.adoc[Plugin Compilation Win]
+*** xref:ocpn-dev-manual::ci-push-linux-build-to-launchpad.adoc[CI: Push Linux Build to Launchpad]
+*** xref:ocpn-dev-manual::codacy.adoc[Codacy:Automate code quality]
+*** xref:ocpn-dev-manual::testquality.adoc[TestQuality -Test Management]
+*** xref:ocpn-dev-manual::nsis_installation_directory.adoc[NSIS Installation Directory]
+*** xref:ocpn-dev-manual::nsis_table.adoc[NSIS Table]
+* User Manual (UM)
+** xref:ocpn-dev-manual::developer_manual.adoc[Background]
+** xref:ocpn-dev-manual::community_old.adoc[Community]
+** xref:ocpn-dev-manual::pi_installer-ui.adoc[PI Manager UI Discussion]
+** xref:ocpn-dev-manual::pi_installer_summary.adoc[PI Manager Summary]
++++
+<p/> <hr/> <p/>
++++
+* Old Manual
+** Compiling on Windows
+** xref:ocpn-dev-manual::languages.adoc[Internationalization- Languages]
+** xref:ocpn-dev-manual::messaging.adoc[Messaging]
+** xref:ocpn-dev-manual::prerequisites.adoc[Prerequisites -Just found this]
+** Developer Plugins
+** Plugin API
+*** xref:ocpn-dev-manual::ocpn_draw_odapi.adoc[OCPN Draw ODAPI]
+** xref:ocpn-dev-manual::beta_plugins.adoc[Beta Plugins]
+** Learning
+*** xref:ocpn-dev-manual::coding_solutions.adoc[Coding Solutions]
+*** xref:ocpn-dev-manual::fork_build_windows.adoc[Fork and Build (Windows)]
+*** xref:ocpn-dev-manual::oplaydo1.adoc[oplaydo1 (Windows)]
+*** xref:ocpn-dev-manual::fork_and_build_linux.adoc[Fork and Build (Linux)]
+*** xref:ocpn-dev-manual::oplaydo1_linux.adoc[oplaydo1 (Linux)]
+** xref:ocpn-dev-manual::pi_installer_dev_procedure.adoc[PI Manager Dev Procedure]
+** xref:ocpn-dev-manual::ci-push-build-to-git.adoc[CI: Push build to Git Release]
+** xref:ocpn-dev-manual::ci_travis_encryption_windows.adoc[CI: Travis Encryption for Windows Dev]
+** xref:ocpn-dev-manual::advanceddebugtips.adoc[CI Advanced Debug Tips]
+** Plugin Installer Manual
+** xref:ocpn-dev-manual::plugin-installer::Home.adoc[Home-Plugin-Installer]

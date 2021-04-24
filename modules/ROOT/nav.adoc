@@ -1,0 +1,16 @@
+* Developer Manual
++
+--
+include::partial$nav-dev.adoc[]
+--
+* Plugins
++
+--
+include::opencpn-master-plugins:ROOT:partial$nav-plugins.adoc[]
+--
+* Beta Plugins
++
+--
+include::opencpn-master-plugins:ROOT:partial$nav-betaplugins.adoc[]
+--
+*

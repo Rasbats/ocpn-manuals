@@ -1,0 +1,7 @@
+== MANUALS
+
+link:https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:opencpn_user_manual[User Manual]
+
+link:https://rasbats.github.io/opencpn-plugins-manual/opencpn-master-plugins/0.1/index.html[Plugins Manual]
+
+link:https://leamas.github.io/ocpn-manuals/ocpn-dev-manual/5.3.1/intro-AboutThisManual.html[Developer Manual]
