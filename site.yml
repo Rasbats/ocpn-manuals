@@ -8,8 +8,7 @@ content:
     - url: https://github.com/Rasbats/manual.git
       branches: master
       edit_url: true
-      start_paths: 
-      - manuals
+      
 
 ui:
   bundle:
