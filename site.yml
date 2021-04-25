@@ -1,7 +1,7 @@
 site:
   title: OpenCPN Manuals
   url: https://leamas.github.io/ocpn-manuals/
-  start_page:  manuals::index.adoc
+  start_page:  manual::index.adoc
 
 content:
   sources:
@@ -9,7 +9,6 @@ content:
       branches: main
       edit_url: true
       start_paths:
-      - manuals
       - dev
       - plugins/manual
       - plugins/manual-beta
