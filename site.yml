@@ -1,11 +1,11 @@
 site:
   title: OpenCPN Manuals
-  url: https://leamas.github.io/ocpn-manuals/
+  url: https://rasbats.github.io/ocpn-manuals/
   start_page:  manuals::index.adoc
 
 content:
   sources:
-    - url: https://github.com/Rasbats/manual
+    - url: https://github.com/Rasbats/ocpn-manuals
       branches: main
       edit_url: true
       start_paths:
