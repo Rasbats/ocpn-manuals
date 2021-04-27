@@ -238,9 +238,6 @@ output:
   dir: docs
   clean: true
 
-runtime:
-fetch: true
-
 asciidoc:
   attributes:
     page-resource_1_title: OpenCPN.org
