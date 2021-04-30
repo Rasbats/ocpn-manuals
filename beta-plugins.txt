@@ -1,0 +1,7 @@
+https://github.com/TwoCanPlugIn/EngineDashboard.git
+https://github.com/TwoCanPlugIn/RacingPlugin.git
+https://github.com/RooieDirk/Deviation_pi.git
+https://github.com/rgleason/Autopilot-Plugin.git
+https://github.com/douwefokkema/AutoTrackRaymarine_pi.git
+https://github.com/rgleason/autopilot_route_pi.git
+https://github.com/rgleason/admiralty_tide_tables_pi.git
