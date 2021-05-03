@@ -1,0 +1,91 @@
+---
+name: "OpenCPN - Bug Report"
+description: Report a bug on OpenCPN
+body:
+- type: markdown
+  attributes:
+    value: |
+      Please [search for existing issues](https://github.com/OpenCPN/OpenCPN/issues) before creating a new one.
+      
+- type: input
+  attributes:
+    label: OpenCPN version
+    description: |
+      Please have a look at the title of OpenCPN's main window
+    placeholder: "5.2.4"
+  validations:
+    required: true
+
+- type: checkboxes
+  attributes:
+    label: Platform
+    description: |
+      Tell us on which platform(s) you observe the bug
+    options:
+      - label: "Windows"
+      - label: "Linux"
+      - label: "macOS"
+      - label: "Android"
+
+- type: input
+  attributes:
+    label: Distro Version
+    description: |
+      Please tell us what OS distribution and version you are using (if applicable). 
+      You can get additional information about the version where possible, e.g. on Debian / Ubuntu, run `lsb_release -r`.
+      In case of Linux we are also particularly interested in your desktop environment.
+    placeholder: "Ubuntu 20.04, Gnome Shell"
+  validations:
+    required: false
+
+- type: input
+  attributes:
+    label: Hardware
+    description: |
+      Please tell us what HW are you using
+      In display related bugs, we are particularly interested in your graphic card, usage of Hi-DPI monitor etc.
+    placeholder: "Raspberry Pi"
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Repro Steps
+    description: Please list out the steps to reproduce your bug.  
+    placeholder: Your steps go here. Include relevant environmental variables or any other configuration.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Expected Behavior
+    description: What were you expecting to see? Include any relevant examples or documentation links.
+    placeholder: If you want to include screenshots, paste them into the text area or follow up with a separate comment. 
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Actual Behavior
+    description: What happened instead?
+    placeholder: Include the terminal output, straces of the failing command, etc. as necessary.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Plugins instaled
+    description: Do you have any additional plugins installed? Please list them here.
+    placeholder: None
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Logs
+    description: | 
+      Please provide additional diagnostics if needed.
+      Relevant part of OpenCPN's logfile (which you can access by clicking the link in the application's About dialog) is usually the minimum that will help us diagnose and resolve your problem. Your configuration file, which also may be very helpful, is also accesible there.
+    placeholder: Your links to logs or other information go here.
+  validations:
+    required: false

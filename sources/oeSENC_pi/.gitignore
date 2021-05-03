@@ -1,0 +1,9 @@
+cscope.files
+tags
+index.sh
+build
+cscope.out
+CMakeFiles
+po/*.rule
+*.kdev4
+cache

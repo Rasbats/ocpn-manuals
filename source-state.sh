@@ -52,6 +52,7 @@ case "$1" in
             cd $dir
             git fetch origin $commit
             #git checkout FETCH_HEAD
+            rm -rf .git
             cd ..
         done < $statefile
         ;;

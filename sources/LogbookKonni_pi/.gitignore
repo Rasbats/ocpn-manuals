@@ -1,0 +1,5 @@
+build/
+LogbookKonni-1.2/
+src/version.h
+.directory
+LogbookKonni_*.zip

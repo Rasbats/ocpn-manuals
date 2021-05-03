@@ -39,6 +39,7 @@
 ./ocpndebugger_pi https://github.com/nohal/ocpndebugger_pi.git 0f99eb7437d979f54b74540e21d4238c330793c4
 ./pypilot_pi https://github.com/rgleason/pypilot_pi.git 183ec00ce97eed38b69a97883ce93b75c2bd04c9
 ./shipdriver_pi https://github.com/Rasbats/shipdriver_pi.git 87d2c8154ab67b3121ec49ed77a93c138bbd259e
+./TwoCanPlugIn https://github.com/TwoCanPlugIn/TwoCanPlugIn b3fe80e26af5c9edc534d5a441b5a3f413addbeb 
 ./GPS-Odometer_pi https://github.com/LennartG-Sve/GPS-Odometer_pi.git 8bdaff819d297fee77e166ee578707d35cc2a25e
 ./Autopilot-Plugin https://github.com/rgleason/Autopilot-Plugin.git 759c106e8d2c78239cc85098d5f018a2207b0548
 ./autopilot_route_pi https://github.com/rgleason/autopilot_route_pi.git b8743cb166d268532d9cfc4fd481c69b2fa65099
