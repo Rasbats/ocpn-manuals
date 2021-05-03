@@ -51,7 +51,7 @@ case "$1" in
             test -d $dir || git_clone $url $dir
             cd $dir
             git fetch origin $commit
-            git checkout FETCH_HEAD
+            #git checkout FETCH_HEAD
             cd ..
         done < $statefile
         ;;
