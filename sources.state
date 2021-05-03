@@ -41,11 +41,7 @@
 ./shipdriver_pi https://github.com/Rasbats/shipdriver_pi.git 87d2c8154ab67b3121ec49ed77a93c138bbd259e
 ./twocan https://github.com/TwoCanPlugIn/TwoCanPlugIn b3fe80e26af5c9edc534d5a441b5a3f413addbeb 
 ./GPS-Odometer_pi https://github.com/LennartG-Sve/GPS-Odometer_pi.git 8bdaff819d297fee77e166ee578707d35cc2a25e
-./EngineDashboard https://github.com/TwoCanPlugIn/EngineDashboard.git 5965fe280f3baf5214977ffc45a6b19112343ec8
-./RacingPlugin https://github.com/TwoCanPlugIn/RacingPlugin.git 55acff395785d87510ee6dc1f14ea13ce3a6a479
-./Deviation_pi https://github.com/RooieDirk/Deviation_pi.git 3ab774c8f63f4ce78124b757c03f961e8fe0a0f4
 ./Autopilot-Plugin https://github.com/rgleason/Autopilot-Plugin.git 759c106e8d2c78239cc85098d5f018a2207b0548
-./AutoTrackRaymarine_pi https://github.com/douwefokkema/AutoTrackRaymarine_pi.git f4ca855f180d9d5bb418cc0a04db8ec807c93e9b
 ./autopilot_route_pi https://github.com/rgleason/autopilot_route_pi.git b8743cb166d268532d9cfc4fd481c69b2fa65099
 ./admiralty_tide_tables_pi https://github.com/rgleason/admiralty_tide_tables_pi.git 0156aac9cb1ab00d25b0e6d436543ab893314860
 ./TideFinder_pi https://github.com/Rasbats/TideFinder_pi.git a23a2793d7a9c5282b5e22c0f3b070049f90fe51
