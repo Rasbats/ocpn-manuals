@@ -31,13 +31,9 @@ cleanup_clone() {
 git_clone() {
     vers=$(git --version)
     if [[ "$vers" == *2.[345][0-9].* ]]; then   # > 2.30
-        git clone --depth 1 --filter=blob:none --sparse $1
-        cd $2
-        git sparse-checkout set manual
-    else
-        git clone --depth 2 $1
-        cd $2
-        cleanup_clone
+        git submodule add $1 $here/sources
+        git commit -m "Added"
+        git push
     fi
     cd ..
 }
@@ -51,8 +47,7 @@ case "$1" in
             test -d $dir || git_clone $url $dir
             cd $dir
             git fetch origin $commit
-            #git checkout FETCH_HEAD
-            rm -rf .git
+            git checkout FETCH_HEAD
             cd ..
         done < $statefile
         ;;
