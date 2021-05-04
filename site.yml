@@ -28,11 +28,11 @@ content:
     
     - url: .
       branches: HEAD
-      start_path: ./sources/Autopilot-Plugin/manual/Autopilot-Plugin
+      start_path: ./sources/Autopilot-Plugin/manual/autopilot-rm
     
     - url: .
       branches: HEAD
-      start_path: ./sources/bsb4_pi/manual/bsb4
+      start_path: ./sources/bsb4_pi/manual/bsb4_charts
     
     - url: .
       branches: HEAD
@@ -52,7 +52,11 @@ content:
     
     - url: .
       branches: HEAD
-      start_path: ./sources/DR_pi/manual/DR
+      start_path: ./sources/dashboard_tactics_pi/manual/dash-t
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/DR_pi/manual/dead_reckoning
     
     - url: .
       branches: HEAD
@@ -60,15 +64,15 @@ content:
     
     - url: .
       branches: HEAD
-      start_path: ./sources/FindIt_pi/manual/FindIt
+      start_path: ./sources/FindIt_pi/manual/find-it
     
     - url: .
       branches: HEAD
-      start_path: ./sources/gecomapi_pi/manual/gecomapi
+      start_path: ./sources/gecomapi_pi/manual/googleearth
     
     - url: .
       branches: HEAD
-      start_path: ./sources/GPS-Odometer_pi/manual/GPS-Odometer
+      start_path: ./sources/GPS-Odometer_pi/manual/odometer
     
     - url: .
       branches: HEAD
@@ -80,15 +84,15 @@ content:
     
     - url: .
       branches: HEAD
-      start_path: ./sources/LogbookKonni_pi/manual/LogbookKonni
+      start_path: ./sources/LogbookKonni_pi/manual/logbook
     
     - url: .
       branches: HEAD
-      start_path: ./sources/NmeaConverter_pi/manual/NmeaConverter
+      start_path: ./sources/NmeaConverter_pi/manual/nmea_converter
     
     - url: .
       branches: HEAD
-      start_path: ./sources/nvc_pi/manual/nvc
+      start_path: ./sources/nvc_pi/manual/nv_charts
     
     - url: .
       branches: HEAD
@@ -96,11 +100,11 @@ content:
     
     - url: .
       branches: HEAD
-      start_path: ./sources/ocpn_draw_pi/manual/ocpn_draw
+      start_path: ./sources/ocpn_draw_pi/manual/odraw
     
     - url: .
       branches: HEAD
-      start_path: ./sources/ocpndebugger_pi/manual/ocpndebugger
+      start_path: ./sources/ocpndebugger_pi/manual/debugger
     
     - url: .
       branches: HEAD
@@ -108,7 +112,7 @@ content:
     
     - url: .
       branches: HEAD
-      start_path: ./sources/ofc_pi/manual/ofc
+      start_path: ./sources/ofc_pi/manual/fugawi
     
     - url: .
       branches: HEAD
@@ -116,7 +120,7 @@ content:
     
     - url: .
       branches: HEAD
-      start_path: ./sources/otidalplan_pi/manual/otidalplan_pi
+      start_path: ./sources/otidalplan_pi/manual/otidalplan
     
     - url: .
       branches: HEAD
@@ -128,7 +132,7 @@ content:
     
     - url: .
       branches: HEAD
-      start_path: ./sources/plots_pi/manual/plots
+      start_path: ./sources/plots_pi/manual/sweep_plot
     
     - url: .
       branches: HEAD
@@ -152,7 +156,7 @@ content:
     
     - url: .
       branches: HEAD
-      start_path: ./sources/route_pi/manual/route
+      start_path: ./sources/route_pi/manual/route_great_circle
     
     - url: .
       branches: HEAD
@@ -160,7 +164,7 @@ content:
     
     - url: .
       branches: HEAD
-      start_path: ./sources/s63_pi/manual/s63
+      start_path: ./sources/s63_pi/manual/s63_vector_charts
     
     - url: .
       branches: HEAD
@@ -192,7 +196,7 @@ content:
     
     - url: .
       branches: HEAD
-      start_path: ./sources/TwoCanPlugIn/manual/TwoCanPlugIn
+      start_path: ./sources/TwoCanPlugIn/manual/twocan
     
     - url: .
       branches: HEAD
