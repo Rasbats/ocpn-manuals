@@ -46,7 +46,7 @@ case "$1" in
         while true; do
             read dir url commit || exit 0
             cd $here/sources
-            git submodule add https://github.com/opencpn-radar-pi/radar_pi.git $dir
+            git submodule add $url $dir
 			git commit -m "Added"
             git push
             cd ..
