@@ -1,0 +1,14 @@
+version: 2.0
+jobs:
+  build:
+    docker:
+      - image: nohal/opencpn-builder
+    builder environment:
+      OCPN_CI_BUILD: yes
+    branches:
+      only:
+        - master
+    steps:
+      - run: git clone --depth=10 "https://github.com/nohal/objsearch_pi.git" work
+      - run: mkdir work/build
+      - run: cd work/build; cmake ..; make
