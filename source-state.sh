@@ -31,7 +31,7 @@ cleanup_clone() {
 git_clone() {
     vers=$(git --version)
     if [[ "$vers" == *2.[345][0-9].* ]]; then   # > 2.30
-        git submodule add $1 $here/sources
+        git submodule add $2 $here/sources
         git commit -m "Added"
         git push
     fi
@@ -44,10 +44,8 @@ case "$1" in
     restore) 
         while true; do
             read dir url commit || exit 0
-            test -d $dir || git_clone $url $dir
-            cd $dir
-            git fetch origin $commit
-            git checkout FETCH_HEAD
+            test -d $dir || git_clone $url $dir                       
+            
             cd ..
         done < $statefile
         ;;
