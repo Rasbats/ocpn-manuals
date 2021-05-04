@@ -10,3 +10,6 @@
 [submodule "aisradar_pi"]
 	path = aisradar_pi
 	url = https://github.com/opencpn-radar-pi/radar_pi.git
+[submodule "sources/aisradar_pi"]
+	path = sources/aisradar_pi
+	url = https://github.com/opencpn-radar-pi/radar_pi.git
