@@ -20,7 +20,7 @@ content:
     
     - url: .
       branches: HEAD
-      start_path: ./sources/aisradar_pi/manual/aisradar
+      start_path: ./sources/aisradar_pi/manual/ais_radar_display
     
     - url: .
       branches: HEAD
