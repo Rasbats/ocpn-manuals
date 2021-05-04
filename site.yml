@@ -14,15 +14,15 @@ content:
       - plugins/manual
       - plugins/manual-beta
      
-    - url: ./sources/shipdriver_pi
+    - url: .
       branches: HEAD
-      start_path: manual/shipdriver
-      edit_url: true 
+      start_path: ./sources/shipdriver_pi/manual/shipdriver
+
       
-    - url: ./sources/otcurrent_pi 
+    - url: .
       branches: HEAD   
-      start_path: manual/otcurrent
-      edit_url: true
+      start_path: ./sources/otcurrent_pi/manual/otcurrent
+
       
 
 ui:
