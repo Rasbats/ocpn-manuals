@@ -46,6 +46,7 @@ case "$1" in
         while true; do
             read dir url commit || exit 0
             cd $here/sources
+            git remote rm $url
             git submodule add $url $dir
 			git commit -m "Added"
             git push
