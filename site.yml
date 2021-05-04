@@ -13,17 +13,214 @@ content:
       - dev
       - plugins/manual
       - plugins/manual-beta
-     
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/admiralty_tide_tables_pi/manual/admiralty
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/aisradar_pi/manual/aisradar
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/autopilot_route_pi/manual/autopilot_route
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/Autopilot-Plugin/manual/Autopilot-Plugin
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/bsb4_pi/manual/bsb4
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/calculator_pi/manual/calculator
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/celestial_navigation_pi/manual/celestial_navigation
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/chartscale_pi/manual/chartscale
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/climatology_pi/manual/climatology
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/DR_pi/manual/DR
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/EarthExplorer_pi/manual/EarthExplorer
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/FindIt_pi/manual/FindIt
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/gecomapi_pi/manual/gecomapi
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/GPS-Odometer_pi/manual/GPS-Odometer
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/iacfleet_pi/manual/iacfleet
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/launcher_pi/manual/launcher
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/LogbookKonni_pi/manual/LogbookKonni
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/NmeaConverter_pi/manual/NmeaConverter
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/nvc_pi/manual/nvc
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/objsearch_pi/manual/objsearch
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/ocpn_draw_pi/manual/ocpn_draw
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/ocpndebugger_pi/manual/ocpndebugger
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/oeSENC_pi/manual/oeSENC
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/ofc_pi/manual/ofc
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/otcurrent_pi/manual/otcurrent
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/otidalplan_pi/manual/otidalplan_pi
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/otidalroute_pi/manual/otidalroute
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/photolayer_pi/manual/photolayer
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/plots_pi/manual/plots
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/polar_pi/manual/polar
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/projections_pi/manual/projections
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/pypilot_pi/manual/pypilot
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/radar_pi/manual/radar
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/rotationctrl_pi/manual/rotationctrl
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/route_pi/manual/route
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/rtlsdr_pi/manual/rtlsdr
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/s63_pi/manual/s63
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/SailawayNMEA_pi/manual/SailawayNMEA
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/sar_pi/manual/sar
+    
     - url: .
       branches: HEAD
       start_path: ./sources/shipdriver_pi/manual/shipdriver
-
-      
+    
     - url: .
-      branches: HEAD   
-      start_path: ./sources/otcurrent_pi/manual/otcurrent
-
-      
+      branches: HEAD
+      start_path: ./sources/statusbar_pi/manual/statusbar
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/survey_pi/manual/survey
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/tactics_pi/manual/tactics
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/TideFinder_pi/manual/TideFinder
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/TwoCanPlugIn/manual/TwoCanPlugIn
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/UKTides_pi/manual/UKTides
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/vdr_pi/manual/vdr
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/vfkaps_pi/manual/vfkaps
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/watchdog_pi/manual/watchdog
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/weather_routing_pi/manual/weather_routing
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/weatherfax_pi/manual/weatherfax
+    
+    - url: .
+      branches: HEAD
+      start_path: ./sources/windvane_pi/manual/windvane
 
 ui:
   bundle:
