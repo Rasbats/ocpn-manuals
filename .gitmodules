@@ -1,6 +1,6 @@
 [submodule "sources/radar_pi"]
 	path = sources/radar_pi
-	url = https://github.com/opencpn-radar-pi/radar_pi
+	url = https://github.com/opencpn-radar-pi/radar_pi.git
 [submodule "sources/restore"]
 	path = sources/restore
 	url = https://github.com/opencpn-radar-pi/radar_pi.git
