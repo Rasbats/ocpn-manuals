@@ -4,3 +4,6 @@
 [submodule "sources/restore"]
 	path = sources/restore
 	url = https://github.com/opencpn-radar-pi/radar_pi.git
+[submodule "restore"]
+	path = restore
+	url = https://github.com/opencpn-radar-pi/radar_pi.git
