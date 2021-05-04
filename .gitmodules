@@ -1,0 +1,3 @@
+[submodule "sources/radar_pi"]
+	path = sources/radar_pi
+	url = https://github.com/opencpn-radar-pi/radar_pi
