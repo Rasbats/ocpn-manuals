@@ -70,6 +70,9 @@
 <loc>https://rasbats.github.io/ocpn-manuals/sitemap-objsearch.xml</loc>
 </sitemap>
 <sitemap>
+<loc>https://rasbats.github.io/ocpn-manuals/sitemap-ocpn-dev-manual.xml</loc>
+</sitemap>
+<sitemap>
 <loc>https://rasbats.github.io/ocpn-manuals/sitemap-odometer.xml</loc>
 </sitemap>
 <sitemap>
