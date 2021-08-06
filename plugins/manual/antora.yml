@@ -1,5 +1,5 @@
 name: opencpn-master-plugins
-title: OpenCPN Plugins
+title: OpenCPN Plugins Manual
 version: '0.1'
 start_page: ROOT:index.adoc 
 nav: 
