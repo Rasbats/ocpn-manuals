@@ -1,0 +1,3 @@
+./sources-betas https://github.com/Rasbats/ocpn-manuals.git 56a2fb3149d230c1681bd100417a1c54d5c1ecaf
+./sources-betas https://github.com/Rasbats/ocpn-manuals.git 56a2fb3149d230c1681bd100417a1c54d5c1ecaf
+./sources-betas https://github.com/Rasbats/ocpn-manuals.git 56a2fb3149d230c1681bd100417a1c54d5c1ecaf
